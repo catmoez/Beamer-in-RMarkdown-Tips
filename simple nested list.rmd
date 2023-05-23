@@ -1,0 +1,29 @@
+---
+title: "Nested List Blog Post"
+author: "Catherine Moez"
+date: "May 23, 2023"
+output: beamer_presentation
+header-includes:
+  - \setbeamertemplate{itemize item}{\scriptsize$\blacksquare$}
+  - \setbeamertemplate{itemize subitem}{\scriptsize$o$}
+  - \setbeamertemplate{itemize subsubitem}{\scriptsize$\bowtie$}
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T)
+# header-includes for extra top of doc latex code
+#   - \setbeamertemplate{itemize subsubitem}{\scriptsize$\square$}
+#   - \setbeamertemplate{itemize subsubitem}{\scriptsize$>>$} # any literal text or ltx symbl
+```
+
+# Progress
+
+- Big item line
+    + Sub-item here
+    + Message content
+        + A sub-sub-item here
+        + Second one
+    + More content
+- Another top-level item
+- Final point here
